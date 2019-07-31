@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import JobMeta from "../components/job-meta"
 import Image from "gatsby-image"
 import About from "../components/about"
+import Helmet from "react-helmet"
 /** @jsx jsx */
 import { jsx, Styled } from "theme-ui"
 
@@ -14,6 +15,10 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+
+        <Helmet>
+          <title>{post.frontmatter.title} - {siteTitle}</title>
+        </Helmet>
 
         <Image fixed={post.frontmatter.companyLogo.childImageSharp.fixed} />
         <Styled.h1 sx={{ marginBottom: 1 }}>{post.frontmatter.title}</Styled.h1>

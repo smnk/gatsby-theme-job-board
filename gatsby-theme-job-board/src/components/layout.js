@@ -7,6 +7,7 @@ import {
   Container,
   Footer as StyledFooter,
 } from "theme-ui"
+import Helmet from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 import Title from "./title"
 import Footer from "./footer"
@@ -25,6 +26,11 @@ const Layout = ({ children }) => {
 
   return (
     <StyledLayout>
+      <Helmet>
+        <title>{data.site.siteMetadata.title}</title>
+        <meta name="description" content={data.site.siteMetadata.description} />
+      </Helmet>
+
       <Global
         styles={css`
           body {

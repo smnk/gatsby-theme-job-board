@@ -1,10 +1,10 @@
 ---
-title: Web Analyst
-company: Efteling
-location: Remote
-date: "2019-07-28"
+title: Head of Fast Food
+company: Madrigal Electromotive
+location: Hannover, Germany
+date: "2019-07-30"
 companyLogo: "./logo.png"
-url: "https://www.efteling.com"
+url: "https://breakingbad.fandom.com/wiki/Madrigal_Electromotive_GmbH"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius fringilla quam ultrices tincidunt. Etiam imperdiet massa a libero dignissim efficitur. Suspendisse tempor dictum nisi, sed tincidunt lorem blandit in. Morbi est diam, gravida vitae condimentum id, finibus imperdiet leo. Donec at tortor placerat, ullamcorper leo non, rutrum purus. Aenean varius luctus sapien, in sollicitudin augue blandit vestibulum. Cras elementum orci vel metus venenatis faucibus. Cras tempus cursus eros, vel consequat diam placerat et. Vestibulum ornare laoreet vulputate. In tellus orci, viverra a massa id, tristique fermentum arcu. Ut in velit lacus.

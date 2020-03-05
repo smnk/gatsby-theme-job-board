@@ -1,5 +1,5 @@
 ---
-title: Head of Fast Food
+title: Head of Fast Sites
 company: Madrigal Electromotive
 location: Hannover, Germany
 date: "2019-07-30"
